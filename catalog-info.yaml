@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sample-docs"
+  description: "sample docs"
+  annotations:
+    github.com/project-slug: matiasurrutia/sample-docs
+    backstage.io/techdocs-ref: url:https://github.com/matiasurrutia/sample-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "matiasurrutia"

@@ -1,0 +1,8 @@
+site_name: "sample-docs"
+site_description: "sample docs"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
